@@ -1,10 +1,53 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #ccb9b9;
+  color: #fff;
+}
 #root {
-  max-width: 1280px;
+  width: 320px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background: #15172b;
 }
-
+form > label > input {
+  height: 40px;
+  border-radius: 0;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 12px;
+  width: 280px;
+  background: #303245;
+  color: #fff;
+}
+.error {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+  color: red;
+}
+.success{
+  color: rgb(75, 181, 67);
+}
+input[type="submit"], #root button {
+  background: #08d;
+  color: #222;
+  border: none;
+  padding: 8px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100%;
+  border-radius: 12px;
+  padding: 18px 10px;
+  color: #fff;
+}
+form > label {
+  margin: 0 0 10px;
+  float: left;
+  width: 100%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
